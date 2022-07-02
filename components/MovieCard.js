@@ -13,7 +13,7 @@ const MovieCard = ({ movie }) => {
         </div>
       </div>
     </Link>
-  )
-}
+  );
+};
 
-export default MovieCard
+export default MovieCard;

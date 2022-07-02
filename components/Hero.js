@@ -13,7 +13,7 @@ const Hero = () => {
             <button className="bg-gray-700 text-white py-3 px-6 rounded text-sm mt-4">Contactez-nous</button>
         </Link> 
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

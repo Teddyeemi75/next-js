@@ -6,10 +6,9 @@ const PopularMovie = ({ movies }) => {
         <h1 className="text-white text-2xl mt-8 mb-5">Films Populaires</h1>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {movies.map(movie => <MovieCard movie={movie} key={movie.id} />)}
-        </div>
-        
+        </div> 
     </div>
-  )
-}
+  );
+};
 
-export default PopularMovie
+export default PopularMovie;
